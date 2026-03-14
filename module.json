@@ -1,0 +1,113 @@
+{
+  "id": "sigs-v13-items",
+  "title": "Sigs v13 items",
+  "esmodules":["new_spell_schools.js"],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "spell-lists",
+      "label": "Spell Lists",
+      "path": "packs/spell-lists",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+{
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/Classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+{
+      "name": "race",
+      "label": "Race",
+      "path": "packs/race",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+{
+	"name": "backgrounds",
+	"label":"Backgrounds",
+	"path":"packs/Backgrounds",
+	"type":"Item",
+	"ownership":{
+		"PLAYER": "OBSERVER",
+		"ASSISTANT": "OWNER"},
+	"system": "dnd5e",
+	"flags": {}
+},
+{
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }, 
+{
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+
+
+  ],
+  "description": "Sigs v13 items compendium for D&D 5e. Contains spells, races, classes and more! If you arent Sig or their friend how did you get here?"
+}
