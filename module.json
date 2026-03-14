@@ -7,6 +7,8 @@
     "minimum": "13",
     "verified": "13"
   },
+  "manifest": "https://raw.githubusercontent.com/SignatorySea/sigs-dnd-items/releases/latest/module.json",
+  "download": "https://github.com/SignatorySea/sigs-dnd-items/releases/latest/download/module.zip",
   "flags": {
     "canUpload": true
   },
