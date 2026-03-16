@@ -1,7 +1,7 @@
 {
   "id": "sigs-dnd-items",
   "title": "Sigs DnD items",
-  "esmodules":["new_spell_schools.js"],
+  "esmodules":["scripts/new_spell_schools.js"],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
