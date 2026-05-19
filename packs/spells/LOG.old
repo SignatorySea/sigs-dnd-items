@@ -1,24 +1,10 @@
-2026/05/19-11:39:05.574387 70f46e9ef6c0 Recovering log #340
-2026/05/19-11:39:05.579146 70f46e9ef6c0 Delete type=3 #185
-2026/05/19-11:39:05.579207 70f46e9ef6c0 Delete type=0 #186
-2026/05/19-11:39:05.579246 70f46e9ef6c0 Delete type=3 #339
-2026/05/19-11:39:05.579275 70f46e9ef6c0 Delete type=2 #176
-2026/05/19-11:39:05.579435 70f46e9ef6c0 Delete type=0 #340
-2026/05/19-11:59:44.913048 70f4580e36c0 Level-0 table #344: started
-2026/05/19-11:59:44.913065 70f4580e36c0 Level-0 table #344: 0 bytes OK
-2026/05/19-11:59:44.914939 70f4580e36c0 Delete type=0 #342
-2026/05/19-11:59:44.919484 70f4580e36c0 Manual compaction at level-0 from '!folders!1Da7tWJovfWmrj6J' @ 72057594037927935 : 1 .. '!items.effects!zkfJYkCghjZVsnf7.Cz824xQ2Z4BYuSa9' @ 0 : 0; will stop at '!items!qFtSnye5Z4ig7ZoA' @ 6456 : 1
-2026/05/19-11:59:44.919492 70f4580e36c0 Compacting 1@0 + 0@1 files
-2026/05/19-11:59:44.921291 70f4580e36c0 Generated table #345@0: 4 keys, 8369 bytes
-2026/05/19-11:59:44.921299 70f4580e36c0 Compacted 1@0 + 0@1 files => 8369 bytes
-2026/05/19-11:59:44.923044 70f4580e36c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/19-11:59:44.923081 70f4580e36c0 Delete type=2 #329
-2026/05/19-11:59:44.925187 70f4580e36c0 Manual compaction at level-0 from '!items!qFtSnye5Z4ig7ZoA' @ 6456 : 1 .. '!items.effects!zkfJYkCghjZVsnf7.Cz824xQ2Z4BYuSa9' @ 0 : 0; will stop at (end)
-2026/05/19-11:59:44.927210 70f4580e36c0 Manual compaction at level-1 from '!folders!1Da7tWJovfWmrj6J' @ 72057594037927935 : 1 .. '!items.effects!zkfJYkCghjZVsnf7.Cz824xQ2Z4BYuSa9' @ 0 : 0; will stop at '!items!qFtSnye5Z4ig7ZoA' @ 6474 : 1
-2026/05/19-11:59:44.927215 70f4580e36c0 Compacting 1@1 + 1@2 files
-2026/05/19-11:59:44.943759 70f4580e36c0 Generated table #346@1: 748 keys, 1567510 bytes
-2026/05/19-11:59:44.943771 70f4580e36c0 Compacted 1@1 + 1@2 files => 1567510 bytes
-2026/05/19-11:59:44.945328 70f4580e36c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/19-11:59:44.945426 70f4580e36c0 Delete type=2 #327
-2026/05/19-11:59:44.945573 70f4580e36c0 Delete type=2 #345
-2026/05/19-11:59:44.947177 70f4580e36c0 Manual compaction at level-1 from '!items!qFtSnye5Z4ig7ZoA' @ 6474 : 1 .. '!items.effects!zkfJYkCghjZVsnf7.Cz824xQ2Z4BYuSa9' @ 0 : 0; will stop at (end)
+2026/05/19-13:38:10.521344 7d4c1e96f6c0 Recovering log #348
+2026/05/19-13:38:10.526269 7d4c1e96f6c0 Delete type=2 #329
+2026/05/19-13:38:10.526336 7d4c1e96f6c0 Delete type=3 #185
+2026/05/19-13:38:10.526366 7d4c1e96f6c0 Delete type=2 #327
+2026/05/19-13:38:10.526601 7d4c1e96f6c0 Delete type=3 #347
+2026/05/19-13:38:10.526636 7d4c1e96f6c0 Delete type=0 #186
+2026/05/19-13:38:10.526668 7d4c1e96f6c0 Delete type=0 #348
+2026/05/19-13:38:10.526688 7d4c1e96f6c0 Delete type=3 #339
+2026/05/19-13:38:10.526715 7d4c1e96f6c0 Delete type=2 #176
+2026/05/19-13:38:10.526931 7d4c1e96f6c0 Delete type=0 #340

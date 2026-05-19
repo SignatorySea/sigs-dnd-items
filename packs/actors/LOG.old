@@ -1,21 +1,7 @@
-2026/05/19-11:39:05.676713 70f46e9ef6c0 Recovering log #120
-2026/05/19-11:39:05.681694 70f46e9ef6c0 Delete type=0 #120
-2026/05/19-11:39:05.681730 70f46e9ef6c0 Delete type=3 #119
-2026/05/19-11:59:44.955409 70f4580e36c0 Level-0 table #124: started
-2026/05/19-11:59:44.955427 70f4580e36c0 Level-0 table #124: 0 bytes OK
-2026/05/19-11:59:44.957306 70f4580e36c0 Delete type=0 #122
-2026/05/19-11:59:44.957420 70f4580e36c0 Manual compaction at level-0 from '!actors!2aimPeVJ24S5Xq2k' @ 72057594037927935 : 1 .. '!folders!X1gaScHULqowhWSB' @ 0 : 0; will stop at '!actors!TRJBO6757OgZflXN' @ 306 : 1
-2026/05/19-11:59:44.957427 70f4580e36c0 Compacting 1@0 + 0@1 files
-2026/05/19-11:59:44.959268 70f4580e36c0 Generated table #125@0: 1 keys, 3238 bytes
-2026/05/19-11:59:44.959281 70f4580e36c0 Compacted 1@0 + 0@1 files => 3238 bytes
-2026/05/19-11:59:44.961117 70f4580e36c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/19-11:59:44.961180 70f4580e36c0 Delete type=2 #109
-2026/05/19-11:59:44.981689 70f4580e36c0 Manual compaction at level-0 from '!actors!TRJBO6757OgZflXN' @ 306 : 1 .. '!folders!X1gaScHULqowhWSB' @ 0 : 0; will stop at (end)
-2026/05/19-11:59:44.986635 70f4580e36c0 Manual compaction at level-1 from '!actors!2aimPeVJ24S5Xq2k' @ 72057594037927935 : 1 .. '!folders!X1gaScHULqowhWSB' @ 0 : 0; will stop at '!actors!TRJBO6757OgZflXN' @ 306 : 1
-2026/05/19-11:59:44.986640 70f4580e36c0 Compacting 1@1 + 1@2 files
-2026/05/19-11:59:44.989410 70f4580e36c0 Generated table #126@1: 27 keys, 46967 bytes
-2026/05/19-11:59:44.989418 70f4580e36c0 Compacted 1@1 + 1@2 files => 46967 bytes
-2026/05/19-11:59:44.991064 70f4580e36c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/19-11:59:44.991112 70f4580e36c0 Delete type=2 #15
-2026/05/19-11:59:44.991196 70f4580e36c0 Delete type=2 #125
-2026/05/19-11:59:44.996340 70f4580e36c0 Manual compaction at level-1 from '!actors!TRJBO6757OgZflXN' @ 306 : 1 .. '!folders!X1gaScHULqowhWSB' @ 0 : 0; will stop at (end)
+2026/05/19-13:38:10.647117 7d4c1d16c6c0 Recovering log #128
+2026/05/19-13:38:10.651915 7d4c1d16c6c0 Delete type=0 #128
+2026/05/19-13:38:10.651967 7d4c1d16c6c0 Delete type=2 #15
+2026/05/19-13:38:10.652099 7d4c1d16c6c0 Delete type=0 #120
+2026/05/19-13:38:10.652127 7d4c1d16c6c0 Delete type=3 #119
+2026/05/19-13:38:10.652154 7d4c1d16c6c0 Delete type=2 #109
+2026/05/19-13:38:10.652181 7d4c1d16c6c0 Delete type=3 #127

@@ -1,25 +1,11 @@
-2026/05/19-11:39:05.607128 70f46e1ee6c0 Recovering log #256
-2026/05/19-11:39:05.612419 70f46e1ee6c0 Delete type=0 #256
-2026/05/19-11:39:05.612457 70f46e1ee6c0 Delete type=2 #108
-2026/05/19-11:39:05.612538 70f46e1ee6c0 Delete type=3 #109
-2026/05/19-11:39:05.612571 70f46e1ee6c0 Delete type=3 #255
-2026/05/19-11:39:05.612599 70f46e1ee6c0 Delete type=0 #110
-2026/05/19-11:59:44.979786 70f4580e36c0 Level-0 table #260: started
-2026/05/19-11:59:44.979805 70f4580e36c0 Level-0 table #260: 0 bytes OK
-2026/05/19-11:59:44.981648 70f4580e36c0 Delete type=0 #258
-2026/05/19-11:59:44.983443 70f4580e36c0 Manual compaction at level-0 from '!folders!0qYE4lHlpUloturb' @ 72057594037927935 : 1 .. '!items!zNtcS7n97M1rg37A' @ 0 : 0; will stop at '!items!AX8Rsk0RM4UL7FD5' @ 6724 : 1
-2026/05/19-11:59:44.983447 70f4580e36c0 Compacting 2@0 + 0@1 files
-2026/05/19-11:59:44.985037 70f4580e36c0 Generated table #261@0: 3 keys, 13005 bytes
-2026/05/19-11:59:44.985046 70f4580e36c0 Compacted 2@0 + 0@1 files => 13005 bytes
-2026/05/19-11:59:44.986489 70f4580e36c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/19-11:59:44.986530 70f4580e36c0 Delete type=2 #247
-2026/05/19-11:59:44.986593 70f4580e36c0 Delete type=2 #244
-2026/05/19-11:59:44.996330 70f4580e36c0 Manual compaction at level-0 from '!items!AX8Rsk0RM4UL7FD5' @ 6724 : 1 .. '!items!zNtcS7n97M1rg37A' @ 0 : 0; will stop at (end)
-2026/05/19-11:59:44.996363 70f4580e36c0 Manual compaction at level-1 from '!folders!0qYE4lHlpUloturb' @ 72057594037927935 : 1 .. '!items!zNtcS7n97M1rg37A' @ 0 : 0; will stop at '!items!MUaYlx0yGlKolc5w' @ 6695 : 1
-2026/05/19-11:59:44.996365 70f4580e36c0 Compacting 1@1 + 1@2 files
-2026/05/19-11:59:45.002903 70f4580e36c0 Generated table #262@1: 152 keys, 526037 bytes
-2026/05/19-11:59:45.002915 70f4580e36c0 Compacted 1@1 + 1@2 files => 526037 bytes
-2026/05/19-11:59:45.004438 70f4580e36c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/19-11:59:45.004485 70f4580e36c0 Delete type=2 #261
-2026/05/19-11:59:45.004538 70f4580e36c0 Delete type=2 #166
-2026/05/19-11:59:45.011174 70f4580e36c0 Manual compaction at level-1 from '!items!MUaYlx0yGlKolc5w' @ 6695 : 1 .. '!items!zNtcS7n97M1rg37A' @ 0 : 0; will stop at (end)
+2026/05/19-13:38:10.555801 7d4c1d16c6c0 Recovering log #264
+2026/05/19-13:38:10.560749 7d4c1d16c6c0 Delete type=0 #264
+2026/05/19-13:38:10.560798 7d4c1d16c6c0 Delete type=0 #256
+2026/05/19-13:38:10.560827 7d4c1d16c6c0 Delete type=2 #108
+2026/05/19-13:38:10.560926 7d4c1d16c6c0 Delete type=2 #247
+2026/05/19-13:38:10.560960 7d4c1d16c6c0 Delete type=3 #109
+2026/05/19-13:38:10.560989 7d4c1d16c6c0 Delete type=3 #263
+2026/05/19-13:38:10.561015 7d4c1d16c6c0 Delete type=3 #255
+2026/05/19-13:38:10.561040 7d4c1d16c6c0 Delete type=0 #110
+2026/05/19-13:38:10.561257 7d4c1d16c6c0 Delete type=2 #166
+2026/05/19-13:38:10.561369 7d4c1d16c6c0 Delete type=2 #244
