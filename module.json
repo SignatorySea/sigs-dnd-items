@@ -1,7 +1,7 @@
 {
   "id": "sigs-dnd-items",
   "title": "Sigs DnD items",
-  "esmodules":["scripts/new_spell_schools.js"],
+  "esmodules":["scripts/modifying_5e.js", "scripts/activity_icon_defaults.js"],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
@@ -10,7 +10,20 @@
   "manifest": "https://raw.githubusercontent.com/SignatorySea/sigs-dnd-items/releases/latest/module.json",
   "download": "https://github.com/SignatorySea/sigs-dnd-items/releases/latest/download/module.zip",
   "flags": {
-    "canUpload": true
+    "canUpload": true,
+    "dnd5e":{
+      "spellLists":[
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.ejM6MNxxpXQNjO5K",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.TndQC57tjuT10MPQ",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.xIm385UkwiaynEXy",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.97d2jfzzPLxXgVPR",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.wkOH94NRJmdAqlYA",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.Pvap1NmOXqHH2Fx2",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.CYZoUjwSa6VwJyf1",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.87d68ccu1LEiYQDA",
+        "Compendium.sigs-dnd-items.spell-lists.JournalEntry.ptzZhYZfjtAhoLk1.JournalEntryPage.GEuaoTvaV7m2Nqtd"
+      ]
+    }
   },
   "packs": [
     {
@@ -101,6 +114,30 @@
       "label": "Actors",
       "path": "packs/actors",
       "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
