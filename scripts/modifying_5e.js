@@ -55,6 +55,13 @@ Hooks.once("init", () => {
       //arcane stitches class feature from Valda's Spire of Secrets
       //reanimator necromancer feature
       CONFIG.DND5E.featureTypes.class.subtypes.arcaneStitch = "Arcane Stitch";
+
+      //weapon properties from Valda's
+       CONFIG.DND5E.itemProperties.fist = {
+        label: "Fist",
+        isPhysical: true
+      };
+      CONFIG.DND5E.validProperties.weapon.add("fist");
 });
 
 
