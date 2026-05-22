@@ -1,21 +1,3 @@
-2026/05/20-10:17:36.670064 73771d7ee6c0 Recovering log #254
-2026/05/20-10:17:36.674195 73771d7ee6c0 Delete type=3 #253
-2026/05/20-10:17:36.674224 73771d7ee6c0 Delete type=0 #254
-2026/05/20-10:18:46.168373 73770770f6c0 Level-0 table #258: started
-2026/05/20-10:18:46.168393 73770770f6c0 Level-0 table #258: 0 bytes OK
-2026/05/20-10:18:46.170377 73770770f6c0 Delete type=0 #256
-2026/05/20-10:18:46.174013 73770770f6c0 Manual compaction at level-0 from '!folders!01K0hSSl7NQjYLb8' @ 72057594037927935 : 1 .. '!items.effects!zWd7AzwFVCgIxBmE.Q21xtwh5zG7ImWX9' @ 0 : 0; will stop at '!items!mVUov3GkUaXXR0jq' @ 8757 : 1
-2026/05/20-10:18:46.174019 73770770f6c0 Compacting 1@0 + 0@1 files
-2026/05/20-10:18:46.175347 73770770f6c0 Generated table #259@0: 1 keys, 1724 bytes
-2026/05/20-10:18:46.175365 73770770f6c0 Compacted 1@0 + 0@1 files => 1724 bytes
-2026/05/20-10:18:46.177060 73770770f6c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/20-10:18:46.177168 73770770f6c0 Delete type=2 #249
-2026/05/20-10:18:46.179185 73770770f6c0 Manual compaction at level-0 from '!items!mVUov3GkUaXXR0jq' @ 8757 : 1 .. '!items.effects!zWd7AzwFVCgIxBmE.Q21xtwh5zG7ImWX9' @ 0 : 0; will stop at (end)
-2026/05/20-10:18:46.179277 73770770f6c0 Manual compaction at level-1 from '!folders!01K0hSSl7NQjYLb8' @ 72057594037927935 : 1 .. '!items.effects!zWd7AzwFVCgIxBmE.Q21xtwh5zG7ImWX9' @ 0 : 0; will stop at '!items!mVUov3GkUaXXR0jq' @ 8757 : 1
-2026/05/20-10:18:46.179282 73770770f6c0 Compacting 1@1 + 1@2 files
-2026/05/20-10:18:46.201259 73770770f6c0 Generated table #260@1: 1285 keys, 1521500 bytes
-2026/05/20-10:18:46.201275 73770770f6c0 Compacted 1@1 + 1@2 files => 1521500 bytes
-2026/05/20-10:18:46.202886 73770770f6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/05/20-10:18:46.202967 73770770f6c0 Delete type=2 #247
-2026/05/20-10:18:46.203044 73770770f6c0 Delete type=2 #259
-2026/05/20-10:18:46.209874 73770770f6c0 Manual compaction at level-1 from '!items!mVUov3GkUaXXR0jq' @ 8757 : 1 .. '!items.effects!zWd7AzwFVCgIxBmE.Q21xtwh5zG7ImWX9' @ 0 : 0; will stop at (end)
+2026/05/21-17:01:55.506255 7e776ecbd6c0 Recovering log #278
+2026/05/21-17:01:55.512001 7e776ecbd6c0 Delete type=3 #277
+2026/05/21-17:01:55.512033 7e776ecbd6c0 Delete type=0 #278
