@@ -75,7 +75,7 @@ Hooks.once("init", () => {
       CONFIG.DND5E.validProperties.weapon.add("elegant");
 
       CONFIG.DND5E.itemProperties.explosive = {
-        label: "explosive",
+        label: "Explosive",
         isPhysical: true
       };
       CONFIG.DND5E.validProperties.weapon.add("explosive");
@@ -170,13 +170,16 @@ Hooks.once("init", () => {
       };
       CONFIG.DND5E.validProperties.weapon.add("twinshot");
       
-      // adds tool tip tag of "Weapon Property"
-      CONFIG.DND5E.ruleTypes.weaponproperty = {label: "Weapon Property", reference: `weaponproperty`};
+
 
       // ------------------------------------------
       // Rules Refrences for Valda's
       //-------------------------------------------
       CONFIG.DND5E.rules.monsterousgrafts = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.1X0d9VIycsVm43xs";
+
+      // adds tool tip tag of "Weapon Property"
+      CONFIG.DND5E.ruleTypes.weaponproperty = {label: "Weapon Property", reference: `weaponproperty`};
+
 
       //weapon properties rules pages
       CONFIG.DND5E.rules.weaponautomatic = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.CXNOAHXIHNxGJnSF";
@@ -201,7 +204,23 @@ Hooks.once("init", () => {
       CONFIG.DND5E.rules.weapontrip = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.KemjPHZjbawB0Brh";
       CONFIG.DND5E.rules.weapontwinshot = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.WoVc7BbGGcJg8V2y";
     
-    
+      // --------------------------------------
+      // New Weapon Base types from Valda's
+      // ---------------------------------------
+      /* IDK I dont know if this is worth the massive effort
+      CONFIG.DND5E.weaponIds.cestus = "Compendium.sigs-dnd-items.items.Item.MzmywET0XAF3LN1G";
+      CONFIG.DND5E.weaponIds.clawgauntlet = "Compendium.sigs-dnd-items.items.Item.AcULqYWcwceWOmUI";
+      CONFIG.DND5E.weaponIds.hookhand = "Compendium.sigs-dnd-items.items.Item.uzdVyHB4ahEbuCLm";
+      CONFIG.DND5E.weaponIds.kama = "Compendium.sigs-dnd-items.items.Item.yXo97G6FqJeK2M0O";
+      CONFIG.DND5E.weaponIds.machete = "Compendium.sigs-dnd-items.items.Item.GibS30rPlWnuYsty";
+      CONFIG.DND5E.weaponIds.pickaxe = "Compendium.sigs-dnd-items.items.Item.7CgcsRyE9yCWN1DW";
+      CONFIG.DND5E.weaponIds.punchingdagger = "Compendium.sigs-dnd-items.items.Item.3t4VrbIpnjBvGC4p";
+      CONFIG.DND5E.weaponIds.shovel = "Compendium.sigs-dnd-items.items.Item.s4jNhz20TjhwbpaI";
+      */
+
+
+
+
     });
 /*
   //new spell schools
