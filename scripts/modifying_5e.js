@@ -218,7 +218,30 @@ Hooks.once("init", () => {
       CONFIG.DND5E.weaponIds.shovel = "Compendium.sigs-dnd-items.items.Item.s4jNhz20TjhwbpaI";
       */
 
+      // --------------------------------------------------
+      // Investigator Subclass Occultist Spell Progression
+      // --------------------------------------------------
 
+      CONFIG.DND5E.spellcasting.investOccult = {
+        label: "Pact Magic",
+        type: "single",
+        cantrips: true,
+        prepares: false,
+        progression: {
+          occultist: {
+            label: "Occultist",
+            divisor: 1,
+            roundUp: true
+          }
+        },
+        table: {
+          3: {slots: 1, level: 1},
+          5: {slots: 2, level: 1},
+          7: {slots: 2, level: 2},
+          13: {slots: 2, level: 3},
+          19: {slots: 2, level: 4}
+        }
+      };
 
 
     });
