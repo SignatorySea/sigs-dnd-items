@@ -223,13 +223,13 @@ Hooks.once("init", () => {
       // --------------------------------------------------
 
       CONFIG.DND5E.spellcasting.investOccult = {
-        label: "Pact Magic",
+        label: "Pact Magic", //this line adds it under the pact magic label in the drop down
         type: "single",
         cantrips: true,
         prepares: false,
         progression: {
-          occultist: {
-            label: "Occultist",
+          occultist: {  //this section denotes the actuall spell casting you are setting up
+            label: "Occultist", 
             divisor: 1,
             roundUp: true
           }
