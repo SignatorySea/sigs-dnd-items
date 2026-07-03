@@ -8,6 +8,9 @@
   };
 }); */
 
+// spellcasting config https://github.com/foundryvtt/dnd5e/blob/d5d675f565df50ec001cf1ebf3213e2ff0a9f2c8/module/config.mjs#L3009
+
+
 
 Hooks.once("init", () => {
     //---------------------------------------------------
@@ -36,6 +39,10 @@ Hooks.once("init", () => {
         legs: "Legs"
       }
       };
+
+      //arcane fighting style feature for Warmage
+       CONFIG.DND5E.featureTypes.class.subtypes.arcaneFightingStyle = "Arcane Fighting Style";
+       CONFIG.DND5E.featureTypes.class.subtypes.warmageTricks = "Warmage Tricks";
 
       //arcane stitches class feature from Valda's Spire of Secrets
       //reanimator necromancer feature
@@ -228,7 +235,7 @@ Hooks.once("init", () => {
         cantrips: true,
         prepares: false,
         progression: {
-          occultist: {  //this section denotes the actuall spell casting you are setting up
+          occultist: {  //this section denotes the actual spell casting you are setting up
             label: "Occultist", 
             divisor: 1,
             roundUp: true
@@ -243,6 +250,39 @@ Hooks.once("init", () => {
         }
       };
 
+      CONFIG.DND5E.spellcasting.martyr = {
+        label: "Martyr", //this line adds it under the label in the drop down
+        type: "multi",
+        cantrips: false,
+        prepares: false,
+        progression: {
+          martyr: {  //this section denotes the actual spell casting you are setting up
+            label: "Martyr", 
+            divisor: 2,
+          }
+        },
+        table: [
+          [],
+          [1],
+          [1],
+          [1],
+          [1, 1],
+          [1, 1],
+          [1, 1],
+          [1, 1],
+          [1, 1, 1],
+          [1, 1, 1],
+          [1, 1, 1],
+          [1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1, 1],
+          [1, 1, 1, 1, 1],
+          [1, 1, 1, 1, 1],
+          [1, 1, 1, 1, 1],
+      ]};
 
     });
 /*
