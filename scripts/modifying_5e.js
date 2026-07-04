@@ -14,7 +14,7 @@
 
 Hooks.once("init", () => {
 
-  dnd5e.applications.ChatLog5e.NOTIFY_DURATION = 10000;
+  dnd5e.applications.ChatLog5e.NOTIFY_DURATION = 10000; //increases the duration of the chat card popup
     //---------------------------------------------------
     // Dnd 5e Rules References!
     // --------------------------------------------------
