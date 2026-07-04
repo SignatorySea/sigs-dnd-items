@@ -13,6 +13,8 @@
 
 
 Hooks.once("init", () => {
+
+  dnd5e.applications.ChatLog5e.NOTIFY_DURATION = 10000;
     //---------------------------------------------------
     // Dnd 5e Rules References!
     // --------------------------------------------------
