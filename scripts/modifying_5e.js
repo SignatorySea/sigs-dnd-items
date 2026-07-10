@@ -50,6 +50,10 @@ Hooks.once("init", () => {
       //reanimator necromancer feature
       CONFIG.DND5E.featureTypes.class.subtypes.arcaneStitch = "Arcane Stitch";
 
+      // Alchemist feature Types
+      CONFIG.DND5E.featureTypes.class.subtypes.bombFormulae = "Bomb Formula";
+      CONFIG.DND5E.featureTypes.class.subtypes.discoveries = "Discoveries";
+
       //-----------------------------------------------
       // weapon properties from Valda's
       // ---------------------------------------------
@@ -213,10 +217,26 @@ Hooks.once("init", () => {
       CONFIG.DND5E.rules.weapontrip = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.KemjPHZjbawB0Brh";
       CONFIG.DND5E.rules.weapontwinshot = "Compendium.sigs-dnd-items.rules.JournalEntry.kZjsusjYH74QpyJB.JournalEntryPage.WoVc7BbGGcJg8V2y";
     
+      //------------------------------------------
+      //  Adding New Exotic Weapon Types
+      // -------------------------------------------
+        CONFIG.DND5E.weaponTypes.exoticMelee = "Exotic Melee";
+        CONFIG.DND5E.weaponProficiencies.exoticMelee = "Exotic Melee";
+        CONFIG.DND5E.weaponProficienciesMap.exoticMelee = "exoticMelee";
+        CONFIG.DND5E.weaponTypeMap.exoticMelee = "melee";
+
+        CONFIG.DND5E.weaponTypes.exoticRanged = "Exotic Ranged";
+        CONFIG.DND5E.weaponProficiencies.exoticRanged = "Exotic Ranged";
+        CONFIG.DND5E.weaponProficienciesMap.exoticRanged = "exoticRanged";
+        CONFIG.DND5E.weaponTypeMap.exoticMelee = "ranged";
+
+        CONFIG.DND5E.weaponIds.bomb = "Compendium.sigs-dnd-items.items.Item.IblKCTCsm2kShltx";
+
       // --------------------------------------
       // New Weapon Base types from Valda's
       // ---------------------------------------
       /* IDK I dont know if this is worth the massive effort
+
       CONFIG.DND5E.weaponIds.cestus = "Compendium.sigs-dnd-items.items.Item.MzmywET0XAF3LN1G";
       CONFIG.DND5E.weaponIds.clawgauntlet = "Compendium.sigs-dnd-items.items.Item.AcULqYWcwceWOmUI";
       CONFIG.DND5E.weaponIds.hookhand = "Compendium.sigs-dnd-items.items.Item.uzdVyHB4ahEbuCLm";
@@ -249,6 +269,30 @@ Hooks.once("init", () => {
           7: {slots: 2, level: 2},
           13: {slots: 2, level: 3},
           19: {slots: 2, level: 4}
+        }
+      };
+    
+      CONFIG.DND5E.spellcasting.dynamoEngineer = {
+        label: "Pact Magic",
+        type: "single",
+        cantrips: false,
+        prepares: true,
+        progression: {
+          dynamoEngineer: {
+            label: "Dynamo Engineer",
+            divisor: 1,
+            roundUp: false
+          }
+        },
+        table: {
+          2: {slots: 2, level: 1},
+          4: {slots: 3, level: 1},
+          7: {slots: 4, level: 1},
+          8: {slots: 4, level: 2},
+          10: {slots: 5, level: 2},
+          13: {slots: 5, level: 3},
+          16: {slots: 6, level: 3},
+          19: {slots: 7, level: 4}
         }
       };
 
@@ -285,33 +329,4 @@ Hooks.once("init", () => {
           [1, 1, 1, 1, 1],
           [1, 1, 1, 1, 1],
       ]};
-
-    });
-/*
-  //new spell schools
-  CONFIG.DND5E.spellSchools.angelic = {
-        label: "Angelic",
-        icon: "…",
-        fullKey: "angelic",
-        reference: "" // UUID of journal entry page for rich tooltips
-    };
-  CONFIG.DND5E.spellSchools.chaos = {
-      label: "Chaos",
-      icon: "…",
-      fullKey: "chaos",
-      reference: "" // UUID of journal entry page for rich tooltips
-    };
-    CONFIG.DND5E.spellSchools.chronomancy = {
-      label: "Chronomancy",
-      icon: "…",
-      fullKey: "chronomancy",
-      reference: "" // UUID of journal entry page for rich tooltips
-    };
-
-    //Valda's Spire of Secrets
-    CONFIG.DND5E.spellSchools.renaissance = {
-        label: "Renaissance",
-        icon: "…",
-        fullKey: "renaissance",
-        reference: "" // UUID of journal entry page for rich tooltips
-    }; */
+});
