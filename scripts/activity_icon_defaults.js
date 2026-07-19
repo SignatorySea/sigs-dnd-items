@@ -1,4 +1,5 @@
-Hooks.once("init", () => {
+export default function activityIcons(){
+
   const activityIcons = {
     attack:   "icons/skills/melee/strike-sword-steel-yellow.webp",
     cast:     "icons/magic/fire/flame-burning-hand-orange.webp",
@@ -19,5 +20,4 @@ Hooks.once("init", () => {
     activity.documentClass.metadata.img = img
   }
 
-  console.log("images loaded?");
-});
+};

@@ -1,7 +1,7 @@
 {
   "id": "sigs-dnd-items",
   "title": "Sigs DnD items",
-  "esmodules":["scripts/modifying_5e.js", "scripts/activity_icon_defaults.js"],
+  "esmodules":["scripts/sigs_dnd_items.js"],
   "version": "1.0.2",
   "languages": [
     {
