@@ -1,4 +1,3 @@
-//Hooks.once("init", () => {
 export default function valdasCustomization(){
   valdasRules();
   valdasWeaponProperties();
