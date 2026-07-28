@@ -130,7 +130,7 @@
     },
     {
       "name": "macros",
-      "label": "macros",
+      "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
       "ownership": {
@@ -163,9 +163,58 @@
       },
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "recipes",
+      "label": "Recipes",
+      "path": "packs/recipes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
     }
 
 
   ],
-  "description": "Sigs v13 items compendium for D&D 5e. Contains spells, races, classes and more! If you arent Sig or their friend how did you get here?"
+  "packFolders": [
+    {
+      "name": "Sig's D&D Items",
+      "sorting": "a",
+      "color": "05d1d1",
+      "folders": [
+        {
+          "name": "Character Creation",
+          "sorting": "a",
+          "color": "06b27e",
+          "packs": [
+            "backgrounds",
+            "classes",
+            "class-features",
+            "feats",
+            "race"
+          ]
+        },
+        {
+          "name": "Items",
+          "sorting": "a",
+          "color": "06b27e",
+          "packs": [
+            "items",
+            "recipes",
+            "spells"
+          ]
+        }
+      ],
+      "packs": [
+        "actors",
+        "macros",
+        "rules",
+        "spell-lists"
+      ]
+    }
+  ],
+  "description": "Sigs item compendiums for D&D 5e. Contains spells, races, classes and more! If you arent Sig or their friend how did you get here?"
 }
